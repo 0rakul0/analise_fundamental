@@ -44,8 +44,8 @@ class analiseFundamental():
 if __name__ == "__main__":
     af = analiseFundamental()
     #insira as empresas que queira analisar
-
-    empresa = ["PETR4.SA"]
+    # ou fundos imobiliarios
+    empresa = ["PETR4.SA", "BBAS3","MXRF11","XPLG11", "BCFF11", "ITUBA4"]
 
     def executor(x):
         af.run(x, inicio="2021-01-01", fim="2022-06-04")
